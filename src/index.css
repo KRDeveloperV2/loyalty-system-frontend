@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Kanit';
+  src: url('./assets/fonts/Kanit-Light.ttf') format('truetype');
+  font-weight: 300; /* Adjust based on the specific font weight */
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: 'Kanit', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Kanit', monospace !important;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
